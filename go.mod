@@ -2,6 +2,8 @@ module golang.org/x/tools
 
 go 1.17
 
+replace golang.org/x/tools => ./
+
 require (
 	github.com/yuin/goldmark v1.4.1
 	golang.org/x/mod v0.6.0-dev.0.20220419223038-86c51ed26bb4
