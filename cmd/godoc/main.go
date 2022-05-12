@@ -279,10 +279,8 @@ func main() {
 	if *writeIndex || *urlFlag != "" {
 		corpus.IndexThrottle = 1.0
 		corpus.IndexEnabled = true
-		initCorpus(corpus)
-	} else {
-		go initCorpus(corpus)
 	}
+	initCorpus(corpus)
 
 	// Initialize the version info before readTemplates, which saves
 	// the map value in a method value.
