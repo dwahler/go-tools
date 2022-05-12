@@ -146,7 +146,7 @@ func (c *Corpus) Init() error {
 		return err
 	}
 	c.updateMetadata()
-	go c.refreshMetadataLoop()
+	//go c.refreshMetadataLoop()
 
 	c.initMu.Lock()
 	c.initDone = true
