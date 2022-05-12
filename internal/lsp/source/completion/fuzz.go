@@ -11,7 +11,7 @@ import (
 	"go/types"
 	"strings"
 
-	"golang.org/x/tools/internal/lsp/protocol"
+	"github.com/dwahler/go-tools/internal/lsp/protocol"
 )
 
 // golang/go#51089

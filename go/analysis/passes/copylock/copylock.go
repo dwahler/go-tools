@@ -13,11 +13,11 @@ import (
 	"go/token"
 	"go/types"
 
-	"golang.org/x/tools/go/analysis"
-	"golang.org/x/tools/go/analysis/passes/inspect"
-	"golang.org/x/tools/go/analysis/passes/internal/analysisutil"
-	"golang.org/x/tools/go/ast/inspector"
-	"golang.org/x/tools/internal/typeparams"
+	"github.com/dwahler/go-tools/go/analysis"
+	"github.com/dwahler/go-tools/go/analysis/passes/inspect"
+	"github.com/dwahler/go-tools/go/analysis/passes/internal/analysisutil"
+	"github.com/dwahler/go-tools/go/ast/inspector"
+	"github.com/dwahler/go-tools/internal/typeparams"
 )
 
 const Doc = `check for locks erroneously passed by value

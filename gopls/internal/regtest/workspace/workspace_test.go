@@ -11,13 +11,13 @@ import (
 	"strings"
 	"testing"
 
-	"golang.org/x/tools/gopls/internal/hooks"
-	. "golang.org/x/tools/internal/lsp/regtest"
-	"golang.org/x/tools/internal/lsp/source"
+	"github.com/dwahler/go-tools/gopls/internal/hooks"
+	. "github.com/dwahler/go-tools/internal/lsp/regtest"
+	"github.com/dwahler/go-tools/internal/lsp/source"
 
-	"golang.org/x/tools/internal/lsp/fake"
-	"golang.org/x/tools/internal/lsp/protocol"
-	"golang.org/x/tools/internal/testenv"
+	"github.com/dwahler/go-tools/internal/lsp/fake"
+	"github.com/dwahler/go-tools/internal/lsp/protocol"
+	"github.com/dwahler/go-tools/internal/testenv"
 )
 
 func TestMain(m *testing.M) {

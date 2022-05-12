@@ -11,7 +11,7 @@ import (
 	"os"
 	"testing"
 
-	"golang.org/x/tools/go/gcexportdata"
+	"github.com/dwahler/go-tools/go/gcexportdata"
 )
 
 // Test to ensure that gcexportdata can read files produced by App

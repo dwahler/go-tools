@@ -18,8 +18,8 @@ import (
 	"strings"
 
 	"golang.org/x/mod/modfile"
-	"golang.org/x/tools/internal/lsp/protocol"
-	"golang.org/x/tools/internal/span"
+	"github.com/dwahler/go-tools/internal/lsp/protocol"
+	"github.com/dwahler/go-tools/internal/span"
 )
 
 // MappedRange provides mapped protocol.Range for a span.Range, accounting for

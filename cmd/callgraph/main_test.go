@@ -19,7 +19,7 @@ import (
 	"strings"
 	"testing"
 
-	"golang.org/x/tools/internal/testenv"
+	"github.com/dwahler/go-tools/internal/testenv"
 )
 
 func init() {

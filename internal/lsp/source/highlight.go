@@ -12,9 +12,9 @@ import (
 	"go/types"
 	"strings"
 
-	"golang.org/x/tools/go/ast/astutil"
-	"golang.org/x/tools/internal/event"
-	"golang.org/x/tools/internal/lsp/protocol"
+	"github.com/dwahler/go-tools/go/ast/astutil"
+	"github.com/dwahler/go-tools/internal/event"
+	"github.com/dwahler/go-tools/internal/lsp/protocol"
 )
 
 func Highlight(ctx context.Context, snapshot Snapshot, fh FileHandle, pos protocol.Position) ([]protocol.Range, error) {

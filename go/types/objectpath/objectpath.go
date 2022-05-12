@@ -30,7 +30,7 @@ import (
 	"strconv"
 	"strings"
 
-	"golang.org/x/tools/internal/typeparams"
+	"github.com/dwahler/go-tools/internal/typeparams"
 )
 
 // A Path is an opaque name that identifies a types.Object

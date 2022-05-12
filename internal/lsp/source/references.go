@@ -13,9 +13,9 @@ import (
 	"go/types"
 	"sort"
 
-	"golang.org/x/tools/internal/event"
-	"golang.org/x/tools/internal/lsp/protocol"
-	"golang.org/x/tools/internal/span"
+	"github.com/dwahler/go-tools/internal/event"
+	"github.com/dwahler/go-tools/internal/lsp/protocol"
+	"github.com/dwahler/go-tools/internal/span"
 )
 
 // ReferenceInfo holds information about reference to an identifier in Go source.

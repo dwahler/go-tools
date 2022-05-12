@@ -16,12 +16,12 @@ import (
 	"regexp"
 	"strings"
 
-	"golang.org/x/tools/go/types/typeutil"
-	"golang.org/x/tools/internal/event"
-	"golang.org/x/tools/internal/lsp/diff"
-	"golang.org/x/tools/internal/lsp/protocol"
-	"golang.org/x/tools/internal/span"
-	"golang.org/x/tools/refactor/satisfy"
+	"github.com/dwahler/go-tools/go/types/typeutil"
+	"github.com/dwahler/go-tools/internal/event"
+	"github.com/dwahler/go-tools/internal/lsp/diff"
+	"github.com/dwahler/go-tools/internal/lsp/protocol"
+	"github.com/dwahler/go-tools/internal/span"
+	"github.com/dwahler/go-tools/refactor/satisfy"
 )
 
 type renamer struct {

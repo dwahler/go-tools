@@ -8,8 +8,8 @@ import (
 	"strings"
 	"testing"
 
-	. "golang.org/x/tools/internal/lsp/regtest"
-	"golang.org/x/tools/internal/lsp/source"
+	. "github.com/dwahler/go-tools/internal/lsp/regtest"
+	"github.com/dwahler/go-tools/internal/lsp/source"
 )
 
 func TestPostfixSnippetCompletion(t *testing.T) {

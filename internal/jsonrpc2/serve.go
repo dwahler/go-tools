@@ -12,7 +12,7 @@ import (
 	"os"
 	"time"
 
-	"golang.org/x/tools/internal/event"
+	"github.com/dwahler/go-tools/internal/event"
 )
 
 // NOTE: This file provides an experimental API for serving multiple remote

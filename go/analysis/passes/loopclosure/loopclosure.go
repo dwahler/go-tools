@@ -10,10 +10,10 @@ import (
 	"go/ast"
 	"go/types"
 
-	"golang.org/x/tools/go/analysis"
-	"golang.org/x/tools/go/analysis/passes/inspect"
-	"golang.org/x/tools/go/ast/inspector"
-	"golang.org/x/tools/go/types/typeutil"
+	"github.com/dwahler/go-tools/go/analysis"
+	"github.com/dwahler/go-tools/go/analysis/passes/inspect"
+	"github.com/dwahler/go-tools/go/ast/inspector"
+	"github.com/dwahler/go-tools/go/types/typeutil"
 )
 
 const Doc = `check references to loop variables from within nested functions

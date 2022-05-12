@@ -7,10 +7,10 @@ package misc
 import (
 	"testing"
 
-	. "golang.org/x/tools/internal/lsp/regtest"
+	. "github.com/dwahler/go-tools/internal/lsp/regtest"
 
-	"golang.org/x/tools/internal/lsp/protocol"
-	"golang.org/x/tools/internal/lsp/tests"
+	"github.com/dwahler/go-tools/internal/lsp/protocol"
+	"github.com/dwahler/go-tools/internal/lsp/tests"
 )
 
 // A basic test for fillstruct, now that it uses a command.

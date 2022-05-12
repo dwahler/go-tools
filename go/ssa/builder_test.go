@@ -20,10 +20,10 @@ import (
 	"strings"
 	"testing"
 
-	"golang.org/x/tools/go/loader"
-	"golang.org/x/tools/go/ssa"
-	"golang.org/x/tools/go/ssa/ssautil"
-	"golang.org/x/tools/internal/typeparams"
+	"github.com/dwahler/go-tools/go/loader"
+	"github.com/dwahler/go-tools/go/ssa"
+	"github.com/dwahler/go-tools/go/ssa/ssautil"
+	"github.com/dwahler/go-tools/internal/typeparams"
 )
 
 func isEmpty(f *ssa.Function) bool { return f.Blocks == nil }

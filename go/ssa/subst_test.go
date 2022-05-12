@@ -11,7 +11,7 @@ import (
 	"go/types"
 	"testing"
 
-	"golang.org/x/tools/internal/typeparams"
+	"github.com/dwahler/go-tools/internal/typeparams"
 )
 
 func TestSubst(t *testing.T) {

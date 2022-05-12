@@ -14,7 +14,7 @@ import (
 	"strings"
 
 	"golang.org/x/mod/semver"
-	"golang.org/x/tools/internal/lsp/protocol"
+	"github.com/dwahler/go-tools/internal/lsp/protocol"
 	"golang.org/x/vuln/osv"
 	"golang.org/x/vuln/vulncheck"
 )

@@ -14,10 +14,10 @@ import (
 	"strings"
 	"unicode"
 
-	"golang.org/x/tools/internal/event"
-	"golang.org/x/tools/internal/lsp/fuzzy"
-	"golang.org/x/tools/internal/lsp/protocol"
-	"golang.org/x/tools/internal/span"
+	"github.com/dwahler/go-tools/internal/event"
+	"github.com/dwahler/go-tools/internal/lsp/fuzzy"
+	"github.com/dwahler/go-tools/internal/lsp/protocol"
+	"github.com/dwahler/go-tools/internal/span"
 )
 
 // Symbol holds a precomputed symbol value. Note: we avoid using the

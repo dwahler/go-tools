@@ -1,6 +1,6 @@
 package b
 
-import . "golang.org/x/tools/internal/lsp/godef/a"
+import . "github.com/dwahler/go-tools/internal/lsp/godef/a"
 
 func _() {
 	// variable of type a.A

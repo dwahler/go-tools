@@ -12,8 +12,8 @@ import (
 	"go/token"
 	"testing"
 
-	"golang.org/x/tools/go/ast/astutil"
-	"golang.org/x/tools/internal/typeparams"
+	"github.com/dwahler/go-tools/go/ast/astutil"
+	"github.com/dwahler/go-tools/internal/typeparams"
 )
 
 type rewriteTest struct {

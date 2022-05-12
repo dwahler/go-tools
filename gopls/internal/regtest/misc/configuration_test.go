@@ -7,10 +7,10 @@ package misc
 import (
 	"testing"
 
-	. "golang.org/x/tools/internal/lsp/regtest"
+	. "github.com/dwahler/go-tools/internal/lsp/regtest"
 
-	"golang.org/x/tools/internal/lsp/fake"
-	"golang.org/x/tools/internal/testenv"
+	"github.com/dwahler/go-tools/internal/lsp/fake"
+	"github.com/dwahler/go-tools/internal/testenv"
 )
 
 // Test that enabling and disabling produces the expected results of showing

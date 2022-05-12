@@ -15,12 +15,12 @@ import (
 	"go/types"
 	"strings"
 
-	"golang.org/x/tools/go/analysis"
-	"golang.org/x/tools/go/ast/astutil"
-	"golang.org/x/tools/internal/lsp/analysis/stubmethods"
-	"golang.org/x/tools/internal/lsp/protocol"
-	"golang.org/x/tools/internal/span"
-	"golang.org/x/tools/internal/typeparams"
+	"github.com/dwahler/go-tools/go/analysis"
+	"github.com/dwahler/go-tools/go/ast/astutil"
+	"github.com/dwahler/go-tools/internal/lsp/analysis/stubmethods"
+	"github.com/dwahler/go-tools/internal/lsp/protocol"
+	"github.com/dwahler/go-tools/internal/span"
+	"github.com/dwahler/go-tools/internal/typeparams"
 )
 
 func stubSuggestedFixFunc(ctx context.Context, snapshot Snapshot, fh VersionedFileHandle, rng protocol.Range) (*analysis.SuggestedFix, error) {

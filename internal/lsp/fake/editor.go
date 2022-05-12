@@ -16,10 +16,10 @@ import (
 	"strings"
 	"sync"
 
-	"golang.org/x/tools/internal/jsonrpc2"
-	"golang.org/x/tools/internal/lsp/command"
-	"golang.org/x/tools/internal/lsp/protocol"
-	"golang.org/x/tools/internal/span"
+	"github.com/dwahler/go-tools/internal/jsonrpc2"
+	"github.com/dwahler/go-tools/internal/lsp/command"
+	"github.com/dwahler/go-tools/internal/lsp/protocol"
+	"github.com/dwahler/go-tools/internal/span"
 )
 
 // Editor is a fake editor client.  It keeps track of client state and can be

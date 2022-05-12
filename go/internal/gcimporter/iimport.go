@@ -20,7 +20,7 @@ import (
 	"sort"
 	"strings"
 
-	"golang.org/x/tools/internal/typeparams"
+	"github.com/dwahler/go-tools/internal/typeparams"
 )
 
 type intReader struct {

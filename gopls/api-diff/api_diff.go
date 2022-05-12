@@ -21,10 +21,10 @@ import (
 	"path/filepath"
 	"strings"
 
-	"golang.org/x/tools/internal/gocommand"
-	difflib "golang.org/x/tools/internal/lsp/diff"
-	"golang.org/x/tools/internal/lsp/diff/myers"
-	"golang.org/x/tools/internal/lsp/source"
+	"github.com/dwahler/go-tools/internal/gocommand"
+	difflib "github.com/dwahler/go-tools/internal/lsp/diff"
+	"github.com/dwahler/go-tools/internal/lsp/diff/myers"
+	"github.com/dwahler/go-tools/internal/lsp/source"
 )
 
 var (
@@ -165,7 +165,7 @@ func loadAPI(ctx context.Context, version string) (*source.APIJSON, error) {
 	}
 	if stdout, err := goCmdRunner.Run(ctx, gocommand.Invocation{
 		Verb:       "install",
-		Args:       []string{fmt.Sprintf("golang.org/x/tools/gopls@%s", version)},
+		Args:       []string{fmt.Sprintf("github.com/dwahler/go-tools/gopls@%s", version)},
 		WorkingDir: exampleDir,
 		Env:        append(os.Environ(), fmt.Sprintf("GOPATH=%s", tmpGopath)),
 	}); err != nil {

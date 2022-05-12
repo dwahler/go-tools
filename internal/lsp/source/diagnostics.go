@@ -7,8 +7,8 @@ package source
 import (
 	"context"
 
-	"golang.org/x/tools/internal/lsp/protocol"
-	"golang.org/x/tools/internal/span"
+	"github.com/dwahler/go-tools/internal/lsp/protocol"
+	"github.com/dwahler/go-tools/internal/span"
 )
 
 type SuggestedFix struct {

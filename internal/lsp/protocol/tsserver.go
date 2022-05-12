@@ -16,7 +16,7 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"golang.org/x/tools/internal/jsonrpc2"
+	"github.com/dwahler/go-tools/internal/jsonrpc2"
 )
 
 type Server interface {

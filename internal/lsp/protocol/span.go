@@ -9,7 +9,7 @@ package protocol
 import (
 	"fmt"
 
-	"golang.org/x/tools/internal/span"
+	"github.com/dwahler/go-tools/internal/span"
 )
 
 type ColumnMapper struct {

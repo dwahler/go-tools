@@ -10,11 +10,11 @@ import (
 	"fmt"
 	"sync"
 
-	"golang.org/x/tools/internal/jsonrpc2"
-	"golang.org/x/tools/internal/lsp/progress"
-	"golang.org/x/tools/internal/lsp/protocol"
-	"golang.org/x/tools/internal/lsp/source"
-	"golang.org/x/tools/internal/span"
+	"github.com/dwahler/go-tools/internal/jsonrpc2"
+	"github.com/dwahler/go-tools/internal/lsp/progress"
+	"github.com/dwahler/go-tools/internal/lsp/protocol"
+	"github.com/dwahler/go-tools/internal/lsp/source"
+	"github.com/dwahler/go-tools/internal/span"
 )
 
 const concurrentAnalyses = 1

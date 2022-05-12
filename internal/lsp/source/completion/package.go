@@ -18,12 +18,12 @@ import (
 	"strings"
 	"unicode"
 
-	"golang.org/x/tools/internal/lsp/debug"
-	"golang.org/x/tools/internal/lsp/fuzzy"
-	"golang.org/x/tools/internal/lsp/protocol"
-	"golang.org/x/tools/internal/lsp/safetoken"
-	"golang.org/x/tools/internal/lsp/source"
-	"golang.org/x/tools/internal/span"
+	"github.com/dwahler/go-tools/internal/lsp/debug"
+	"github.com/dwahler/go-tools/internal/lsp/fuzzy"
+	"github.com/dwahler/go-tools/internal/lsp/protocol"
+	"github.com/dwahler/go-tools/internal/lsp/safetoken"
+	"github.com/dwahler/go-tools/internal/lsp/source"
+	"github.com/dwahler/go-tools/internal/span"
 )
 
 // packageClauseCompletions offers completions for a package declaration when

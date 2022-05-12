@@ -15,15 +15,15 @@ import (
 	"strings"
 	"testing"
 
-	"golang.org/x/tools/internal/lsp/cache"
-	"golang.org/x/tools/internal/lsp/command"
-	"golang.org/x/tools/internal/lsp/diff"
-	"golang.org/x/tools/internal/lsp/diff/myers"
-	"golang.org/x/tools/internal/lsp/protocol"
-	"golang.org/x/tools/internal/lsp/source"
-	"golang.org/x/tools/internal/lsp/tests"
-	"golang.org/x/tools/internal/span"
-	"golang.org/x/tools/internal/testenv"
+	"github.com/dwahler/go-tools/internal/lsp/cache"
+	"github.com/dwahler/go-tools/internal/lsp/command"
+	"github.com/dwahler/go-tools/internal/lsp/diff"
+	"github.com/dwahler/go-tools/internal/lsp/diff/myers"
+	"github.com/dwahler/go-tools/internal/lsp/protocol"
+	"github.com/dwahler/go-tools/internal/lsp/source"
+	"github.com/dwahler/go-tools/internal/lsp/tests"
+	"github.com/dwahler/go-tools/internal/span"
+	"github.com/dwahler/go-tools/internal/testenv"
 )
 
 func TestMain(m *testing.M) {

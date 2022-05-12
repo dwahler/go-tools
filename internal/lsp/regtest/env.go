@@ -11,9 +11,9 @@ import (
 	"sync"
 	"testing"
 
-	"golang.org/x/tools/internal/jsonrpc2/servertest"
-	"golang.org/x/tools/internal/lsp/fake"
-	"golang.org/x/tools/internal/lsp/protocol"
+	"github.com/dwahler/go-tools/internal/jsonrpc2/servertest"
+	"github.com/dwahler/go-tools/internal/lsp/fake"
+	"github.com/dwahler/go-tools/internal/lsp/protocol"
 )
 
 // Env holds an initialized fake Editor, Workspace, and Server, which may be

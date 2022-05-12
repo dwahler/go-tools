@@ -23,7 +23,7 @@ import (
 	"strconv"
 	"strings"
 
-	"golang.org/x/tools/internal/typeparams"
+	"github.com/dwahler/go-tools/internal/typeparams"
 )
 
 // Current bundled export format version. Increase with each format change.

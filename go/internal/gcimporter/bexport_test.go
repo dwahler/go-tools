@@ -19,12 +19,12 @@ import (
 	"strings"
 	"testing"
 
-	"golang.org/x/tools/go/ast/inspector"
-	"golang.org/x/tools/go/buildutil"
-	"golang.org/x/tools/go/internal/gcimporter"
-	"golang.org/x/tools/go/loader"
-	"golang.org/x/tools/internal/typeparams"
-	"golang.org/x/tools/internal/typeparams/genericfeatures"
+	"github.com/dwahler/go-tools/go/ast/inspector"
+	"github.com/dwahler/go-tools/go/buildutil"
+	"github.com/dwahler/go-tools/go/internal/gcimporter"
+	"github.com/dwahler/go-tools/go/loader"
+	"github.com/dwahler/go-tools/internal/typeparams"
+	"github.com/dwahler/go-tools/internal/typeparams/genericfeatures"
 )
 
 var isRace = false

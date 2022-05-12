@@ -28,13 +28,13 @@ import (
 	"testing"
 	"unsafe"
 
-	"golang.org/x/tools/go/callgraph"
-	"golang.org/x/tools/go/packages"
-	"golang.org/x/tools/go/pointer"
-	"golang.org/x/tools/go/ssa"
-	"golang.org/x/tools/go/ssa/ssautil"
-	"golang.org/x/tools/go/types/typeutil"
-	"golang.org/x/tools/internal/typeparams"
+	"github.com/dwahler/go-tools/go/callgraph"
+	"github.com/dwahler/go-tools/go/packages"
+	"github.com/dwahler/go-tools/go/pointer"
+	"github.com/dwahler/go-tools/go/ssa"
+	"github.com/dwahler/go-tools/go/ssa/ssautil"
+	"github.com/dwahler/go-tools/go/types/typeutil"
+	"github.com/dwahler/go-tools/internal/typeparams"
 )
 
 var inputs = []string{

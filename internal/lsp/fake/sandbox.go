@@ -13,9 +13,9 @@ import (
 	"path/filepath"
 	"strings"
 
-	"golang.org/x/tools/internal/gocommand"
-	"golang.org/x/tools/internal/testenv"
-	"golang.org/x/tools/txtar"
+	"github.com/dwahler/go-tools/internal/gocommand"
+	"github.com/dwahler/go-tools/internal/testenv"
+	"github.com/dwahler/go-tools/txtar"
 )
 
 // Sandbox holds a collection of temporary resources to use for working with Go

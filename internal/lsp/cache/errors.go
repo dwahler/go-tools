@@ -13,14 +13,14 @@ import (
 	"strconv"
 	"strings"
 
-	"golang.org/x/tools/go/analysis"
-	"golang.org/x/tools/go/packages"
-	"golang.org/x/tools/internal/analysisinternal"
-	"golang.org/x/tools/internal/lsp/command"
-	"golang.org/x/tools/internal/lsp/protocol"
-	"golang.org/x/tools/internal/lsp/source"
-	"golang.org/x/tools/internal/span"
-	"golang.org/x/tools/internal/typesinternal"
+	"github.com/dwahler/go-tools/go/analysis"
+	"github.com/dwahler/go-tools/go/packages"
+	"github.com/dwahler/go-tools/internal/analysisinternal"
+	"github.com/dwahler/go-tools/internal/lsp/command"
+	"github.com/dwahler/go-tools/internal/lsp/protocol"
+	"github.com/dwahler/go-tools/internal/lsp/source"
+	"github.com/dwahler/go-tools/internal/span"
+	"github.com/dwahler/go-tools/internal/typesinternal"
 )
 
 func goPackagesErrorDiagnostics(snapshot *snapshot, pkg *pkg, e packages.Error) ([]*source.Diagnostic, error) {
@@ -274,7 +274,7 @@ func onlyDeletions(fixes []source.SuggestedFix) bool {
 
 func typesCodeHref(snapshot *snapshot, code typesinternal.ErrorCode) string {
 	target := snapshot.View().Options().LinkTarget
-	return source.BuildLink(target, "golang.org/x/tools/internal/typesinternal", code.String())
+	return source.BuildLink(target, "github.com/dwahler/go-tools/internal/typesinternal", code.String())
 }
 
 func suggestedAnalysisFixes(snapshot *snapshot, pkg *pkg, diag *analysis.Diagnostic, kinds []protocol.CodeActionKind) ([]source.SuggestedFix, error) {

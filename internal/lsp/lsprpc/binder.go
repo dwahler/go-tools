@@ -9,10 +9,10 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"golang.org/x/tools/internal/event"
-	jsonrpc2_v2 "golang.org/x/tools/internal/jsonrpc2_v2"
-	"golang.org/x/tools/internal/lsp/protocol"
-	"golang.org/x/tools/internal/xcontext"
+	"github.com/dwahler/go-tools/internal/event"
+	jsonrpc2_v2 "github.com/dwahler/go-tools/internal/jsonrpc2_v2"
+	"github.com/dwahler/go-tools/internal/lsp/protocol"
+	"github.com/dwahler/go-tools/internal/xcontext"
 )
 
 // The BinderFunc type adapts a bind function to implement the jsonrpc2.Binder

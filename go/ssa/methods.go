@@ -10,7 +10,7 @@ import (
 	"fmt"
 	"go/types"
 
-	"golang.org/x/tools/internal/typeparams"
+	"github.com/dwahler/go-tools/internal/typeparams"
 )
 
 // MethodValue returns the Function implementing method sel, building

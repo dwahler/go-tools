@@ -18,12 +18,12 @@ import (
 	"strings"
 	"time"
 
-	"golang.org/x/tools/internal/event"
-	"golang.org/x/tools/internal/lsp/protocol"
-	"golang.org/x/tools/internal/lsp/safetoken"
-	"golang.org/x/tools/internal/lsp/source"
-	"golang.org/x/tools/internal/lsp/template"
-	"golang.org/x/tools/internal/typeparams"
+	"github.com/dwahler/go-tools/internal/event"
+	"github.com/dwahler/go-tools/internal/lsp/protocol"
+	"github.com/dwahler/go-tools/internal/lsp/safetoken"
+	"github.com/dwahler/go-tools/internal/lsp/source"
+	"github.com/dwahler/go-tools/internal/lsp/template"
+	"github.com/dwahler/go-tools/internal/typeparams"
 )
 
 // The LSP says that errors for the semantic token requests should only be returned

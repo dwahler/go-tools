@@ -7,7 +7,7 @@ import (
 	"fmt"
 	"go/types"
 
-	"golang.org/x/tools/internal/typeparams"
+	"github.com/dwahler/go-tools/internal/typeparams"
 )
 
 // Type substituter for a fixed set of replacement types.

@@ -8,9 +8,9 @@ import (
 	"go/ast"
 	"testing"
 
-	"golang.org/x/tools/go/analysis/analysistest"
-	"golang.org/x/tools/go/analysis/passes/ctrlflow"
-	"golang.org/x/tools/internal/typeparams"
+	"github.com/dwahler/go-tools/go/analysis/analysistest"
+	"github.com/dwahler/go-tools/go/analysis/passes/ctrlflow"
+	"github.com/dwahler/go-tools/internal/typeparams"
 )
 
 func Test(t *testing.T) {

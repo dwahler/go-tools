@@ -21,7 +21,7 @@ import (
 	"sort"
 	"unicode/utf8"
 
-	"golang.org/x/tools/internal/lsp/protocol"
+	"github.com/dwahler/go-tools/internal/lsp/protocol"
 )
 
 // Mapper maps utf-8 byte offsets to LSP positions for a single file.

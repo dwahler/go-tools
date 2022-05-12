@@ -18,7 +18,7 @@ import (
 	"strings"
 	"testing"
 
-	"golang.org/x/tools/internal/testenv"
+	"github.com/dwahler/go-tools/internal/testenv"
 )
 
 // TODO(adonovan):

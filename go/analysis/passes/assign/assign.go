@@ -14,10 +14,10 @@ import (
 	"go/token"
 	"reflect"
 
-	"golang.org/x/tools/go/analysis"
-	"golang.org/x/tools/go/analysis/passes/inspect"
-	"golang.org/x/tools/go/analysis/passes/internal/analysisutil"
-	"golang.org/x/tools/go/ast/inspector"
+	"github.com/dwahler/go-tools/go/analysis"
+	"github.com/dwahler/go-tools/go/analysis/passes/inspect"
+	"github.com/dwahler/go-tools/go/analysis/passes/internal/analysisutil"
+	"github.com/dwahler/go-tools/go/ast/inspector"
 )
 
 const Doc = `check for useless assignments

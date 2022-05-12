@@ -1,8 +1,6 @@
-module golang.org/x/tools
+module github.com/dwahler/go-tools
 
 go 1.17
-
-replace golang.org/x/tools => ./
 
 require (
 	github.com/yuin/goldmark v1.4.1

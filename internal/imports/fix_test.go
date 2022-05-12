@@ -18,8 +18,8 @@ import (
 	"sync"
 	"testing"
 
-	"golang.org/x/tools/go/packages/packagestest"
-	"golang.org/x/tools/internal/gocommand"
+	"github.com/dwahler/go-tools/go/packages/packagestest"
+	"github.com/dwahler/go-tools/internal/gocommand"
 )
 
 var testDebug = flag.Bool("debug", false, "enable debug output")
